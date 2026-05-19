@@ -218,7 +218,7 @@ const main = {
 
 document.addEventListener('DOMContentLoaded', () => {
     // kbo.json 데이터 로드
-    fetch('/kbo.json')
+    fetch('/baseball-lineup-maker/data/kbo.json')
         .then(response => response.json())
         .then(data => {
             const elHint = document.querySelector('.hint');

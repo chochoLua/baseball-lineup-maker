@@ -21,7 +21,22 @@ body {
     padding: 20px;
 }
 
+.logo {
+    position: absolute;
+    cursor: pointer;
+    left: 10px;
+    bottom: 10px;
+    opacity: 0.8;
+}
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
 .total-salary {
+    position: absolute;
+    top: 10px;
+    left: 10px;
     display: inline-block;
     padding: 0.2em 1em;
     font-size: 1.2em;

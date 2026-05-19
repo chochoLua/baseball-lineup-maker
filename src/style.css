@@ -36,7 +36,7 @@ body {
     position: relative;
     display: flex;
     height: 100%;
-    background-image: url('/img/bg_baseball_base.webp');
+    background-image: url('/baseball-lineup-maker/img/bg_baseball_base.webp');
     background-repeat: no-repeat;
     background-size: 1024px 410px;
     background-position: center 80%;

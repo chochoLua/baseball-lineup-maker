@@ -27,6 +27,7 @@ body {
     left: 10px;
     bottom: 10px;
     opacity: 0.8;
+    z-index: 1000;
 }
 .logo img {
     height: 40px;

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Lineup Maker</title>
+    <link rel="stylesheet" href="/src/style.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="main">
+            <div class="total-salary">총액: <span id="totalSalary">0</span>원</div>
+            <div class="base">
+                <div id="LF" class="position-item">
+                    <div class="info">
+                        <div class="position">LF</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="CF" class="position-item">
+                    <div class="info">
+                        <div class="position">CF</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="RF" class="position-item">
+                    <div class="info">
+                        <div class="position">RF</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="SS" class="position-item">
+                    <div class="info">
+                        <div class="position">SS</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="B1" class="position-item">
+                    <div class="info">
+                        <div class="position">1B</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="B2" class="position-item">
+                    <div class="info">
+                        <div class="position">2B</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="B3" class="position-item">
+                    <div class="info">
+                        <div class="position">3B</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="C" class="position-item">
+                    <div class="info">
+                        <div class="position">C</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="SP" class="position-item">
+                    <div class="info">
+                        <div class="position">SP</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="RP" class="position-item">
+                    <div class="info">
+                        <div class="position">RP</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="CP" class="position-item">
+                    <div class="info">
+                        <div class="position">CP</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+                <div id="DH" class="position-item">
+                    <div class="info">
+                        <div class="position">DH</div>
+                        <div class="name"></div>
+                    </div>
+                    <div class="salary"></div>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <ul id="posTab" class="posTab"></ul>
+            <input type="text" id="searchInput" placeholder="선수 검색(이름, 초성)">
+            <h4 class="hint">테스트</h4>
+            <div id="playerList" class="player-list"><div>
+        </div>
+    </div>
+    <script src="/src/index.js"></script>
+</body>
+
+</html>

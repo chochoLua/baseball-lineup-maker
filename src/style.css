@@ -5,6 +5,12 @@
     font-display: swap;
 }
 
+@media print {
+    .sidebar {
+        display: none!important;
+    }
+}
+
 body {
     background-color: #337a3e;
     margin: 0 auto;
@@ -19,6 +25,7 @@ body {
 .main {
     flex: 3;
     padding: 20px;
+    position: relative;
 }
 
 .logo {
@@ -26,12 +33,21 @@ body {
     cursor: pointer;
     left: 10px;
     bottom: 10px;
-    opacity: 0.8;
     z-index: 1000;
 }
+
 .logo img {
     height: 40px;
     margin-right: 10px;
+}
+
+.title {
+    height: 100px;
+    position: absolute;
+    cursor: pointer;
+    right: 10px;
+    top: 5px;
+    z-index: 1000;
 }
 
 .total-salary {
@@ -105,17 +121,17 @@ body {
 
 #LF {
     left: 20%;
-    top: 20%;
+    top: 30%;
 }
 
 #CF {
     left: calc(50% - 50px);
-    top: 20%;
+    top: 30%;
 }
 
 #RF {
     left: 70%;
-    top: 20%;
+    top: 30%;
 }
 
 #B1 {
@@ -125,12 +141,12 @@ body {
 
 #SS {
     left: 35%;
-    top: 40%;
+    top: 45%;
 }
 
 #B2 {
     right: calc(35% - 50px);
-    top: 40%;
+    top: 45%;
 }
 
 #B3 {

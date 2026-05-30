@@ -132,7 +132,8 @@ const players = {
                     name: player.name,
                     salaryInt: player.salaryInt,
                     salaryIntDollar: player.salaryIntDollar,
-                    position: player.position
+                    position: player.position,
+                    teamLogoUrl: player.teamLogoUrl,
                 };
                 e.dataTransfer.effectAllowed = 'move';
             });
@@ -157,7 +158,8 @@ const main = {
                 const salaryEl = posItem.querySelector('.salary');
 
                 const player = this.players[positionId];
-                if (nameEl) nameEl.textContent = player ? player.name : '';
+                console.log(player)
+                if (nameEl) nameEl.innerHTML = player ? `<img style="width:60px;" src="${player.teamLogoUrl}"/><span>${player.name}</span>` : '';
                 if (salaryEl) salaryEl.textContent = player && player.salaryInt ? players.parseWon(player.salaryInt) : '';
             }
         });
@@ -211,19 +213,21 @@ const main = {
         return {
             positionId: positionItem.id,
             playerName: playerData.name,
-            playerSalary: playerData.salaryInt
+            playerSalary: playerData.salaryInt,
+            teamLogoUrl: playerData.teamLogoUrl,
         };
     }
 }
 
 document.addEventListener('DOMContentLoaded', () => {
     // kbo.json 데이터 로드
-    fetch('/baseball-lineup-maker/data/kbo.json')
+    // fetch('/baseball-lineup-maker/data/kbo.json')
+    fetch('/data/kbo.json')
         .then(response => response.json())
         .then(data => {
             const elHint = document.querySelector('.hint');
             if (elHint) {
-                elHint.textContent = `총 ${Object.values(data.positions).reduce((sum, players) => sum + players.length, 0)}명 선수 로드 완료 [${data.source.sourceDate} 데이터]`;
+                elHint.textContent = `총 ${Object.values(data.positions).reduce((sum, players) => sum + players.length, 0)}명 선수 로드 완료 [${data.source.kbo.sourceDate} 데이터]`;
             }
             Object.values(data.positions).forEach(players => {
                 players.forEach(player => {

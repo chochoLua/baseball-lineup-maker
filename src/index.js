@@ -244,6 +244,12 @@ const main = {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    const search = new URLSearchParams(location.search.substring(1));
+    const streamerId = search.get('streamer') ?? 'tachocho';
+    console.log(streamerId)
+    document.querySelector('#soop').style.display = streamerId === 'tachocho' ? 'inline' : 'none';
+    document.querySelector('#logo').src = `img/${streamerId}.png`
+
     // kbo.json 데이터 로드
     fetch('/baseball-lineup-maker/data/kbo.json')
     // fetch('/data/kbo.json')

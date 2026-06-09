@@ -25,7 +25,9 @@ function parseWon(amount) {
         amount = parseInt(amount.replace(/[^0-9]/g, '')) || 0;
     }
 
-    if (amount < 10000) return amount + '원';
+    let isMinus = amount < 0;
+    amount = Math.abs(amount);
+    if (amount < 10000) return (isMinus ? '-' : '') + amount + '원';
 
     let result = '';
 
@@ -46,13 +48,14 @@ function parseWon(amount) {
 
     if (man > 0) result += man + '만';
 
-    return result || '0원';
+    return (isMinus ? '-' : '') + result || '0원';
 }
 
 const players = {
     positions: [],
     current: '',
     searchText: '',
+    sortType: 0,
     init(positions) {
         this.positions = positions;
         this.current = Object.keys(this.positions)[0];
@@ -99,25 +102,39 @@ const players = {
     },
     render() {
         document.getElementById('playerList').innerHTML = '';
-        this.positions[this.current].forEach(player => {
-            if (this.searchText && !(player.name.includes(this.searchText) || player.chosung.includes(this.searchText))) {
-                return;
-            }
+        this.positions[this.current]
+            .filter(player => {
+                return parseInt(player.salary.replace(/[^0-9]/g, '')) > 0 && player.name;
+            })
+            .sort((a, b) => {
+                if (this.sortType === 0) {
+                    return a.name.localeCompare(b.name);
+                }
+                else if (this.sortType === 1) {
+                    return b.salaryInt - a.salaryInt;
+                }
+                return a.salaryInt - b.salaryInt;
+            }).forEach(player => {
+                document.querySelector('.order-type').innerHTML = `정렬 : ${players.sortType == 0 ? '이름순' : (players.sortType === 1 ? '연봉 높은순' : '연봉 낮은순')}`
+                if (this.searchText && !(player.name.includes(this.searchText) || player.chosung.includes(this.searchText))) {
+                    return;
+                }
 
-            const salary = [];
-            if (player.salaryType === '달러') {
-                salary.push(this.parseDollar(player.salaryIntDollar));
-                salary.push(this.parseWon(player.salaryInt));
-            }
-            else {
-                salary.push(this.parseWon(player.salaryInt));
-            }
+                const salary = [];
+                if (player.salaryType === '달러') {
+                    salary.push(this.parseDollar(player.salaryIntDollar));
+                    salary.push(this.parseWon(player.salaryInt));
+                }
+                else {
+                    console.log(player)
+                    salary.push(this.parseWon(player.salaryInt));
+                }
 
 
-            const playerItem = document.createElement('div');
-            playerItem.classList.add('player-item');
-            playerItem.draggable = true;
-            playerItem.innerHTML = `
+                const playerItem = document.createElement('div');
+                playerItem.classList.add('player-item');
+                playerItem.draggable = true;
+                playerItem.innerHTML = `
                     <img src="${player.imageUrl || 'https://placehold.co/50'}" alt="Player Image">
                     <div class="player-info">
                         <div class="player-name">${player.name}</div>
@@ -125,25 +142,25 @@ const players = {
                     </div>
                 `;
 
-            // 드래그 시작 시 플레이어 데이터 저장
-            playerItem.addEventListener('dragstart', (e) => {
-                main.draggedPlayer = {
-                    uuid: player.uuid,
-                    name: player.name,
-                    salaryInt: player.salaryInt,
-                    salaryIntDollar: player.salaryIntDollar,
-                    position: player.position,
-                    teamLogoUrl: player.teamLogoUrl,
-                };
-                e.dataTransfer.effectAllowed = 'move';
-            });
+                // 드래그 시작 시 플레이어 데이터 저장
+                playerItem.addEventListener('dragstart', (e) => {
+                    main.draggedPlayer = {
+                        uuid: player.uuid,
+                        name: player.name,
+                        salaryInt: player.salaryInt,
+                        salaryIntDollar: player.salaryIntDollar,
+                        position: player.position,
+                        teamLogoUrl: player.teamLogoUrl,
+                    };
+                    e.dataTransfer.effectAllowed = 'move';
+                });
 
-            playerItem.addEventListener('dragend', () => {
-                main.draggedPlayer = null;
-            });
+                playerItem.addEventListener('dragend', () => {
+                    main.draggedPlayer = null;
+                });
 
-            document.getElementById('playerList').appendChild(playerItem);
-        });
+                document.getElementById('playerList').appendChild(playerItem);
+            });
     }
 }
 
@@ -158,12 +175,11 @@ const main = {
                 const salaryEl = posItem.querySelector('.salary');
 
                 const player = this.players[positionId];
-                console.log(player)
                 if (nameEl) nameEl.innerHTML = player ? `<img style="width:60px;" src="${player.teamLogoUrl}"/><span>${player.name}</span>` : '';
                 if (salaryEl) salaryEl.textContent = player && player.salaryInt ? players.parseWon(player.salaryInt) : '';
             }
         });
-        
+
         const salaryList = document.querySelectorAll('.salary');
         salaryList.forEach(salary => {
             salary.style.display = salary.textContent.trim() === '' ? 'none' : 'block';
@@ -171,6 +187,14 @@ const main = {
 
         const totalSalary = Object.values(this.players).reduce((sum, player) => sum + (player ? player.salaryInt : 0), 0);
         document.getElementById('totalSalary').textContent = parseWon(totalSalary);
+
+        const salaryCap = document.getElementById('salaryCap');
+        if (salaryCap) {
+            const capAmount = 990_000_000; // 예시로 10억 원을 상한선으로 설정
+            salaryCap.textContent = `${parseWon(capAmount - totalSalary)}`;
+            salaryCap.style.color = totalSalary > capAmount ? '#e90000' : '';
+        }
+
     },
     initDragDrop() {
         // position-item에 드래그 오버 및 드롭 이벤트 리스너 추가
@@ -230,16 +254,28 @@ document.addEventListener('DOMContentLoaded', () => {
                 elHint.textContent = `총 ${Object.values(data.positions).reduce((sum, players) => sum + players.length, 0)}명 선수 로드 완료 [${data.source.kbo.sourceDate} 데이터]`;
             }
             Object.values(data.positions).forEach(players => {
-                players.forEach(player => {
-                    player.uuid = Crypto.randomUUID();
-                    player.chosung = player.name.toChosung();
-                    player.salaryType = player.salary.includes('달러') ? '달러' : '원';
-                    player.salaryInt = parseInt(player.salary.replace(/[^0-9]/g, '')) * (player.salary.includes('달러') ? 1500 : 10000);
-                    if (player.salaryType === '달러') {
-                        player.salaryIntDollar = parseInt(player.salary.replace(/[^0-9]/g, ''))
-                    }
-                });
+                players
+                    .forEach(player => {
+                        player.uuid = Crypto.randomUUID();
+                        player.chosung = player.name.toChosung();
+                        player.salaryType = player.salary.includes('달러') ? '달러' : '원';
+                        player.salaryInt = parseInt(player.salary.replace(/[^0-9]/g, '')) * (player.salary.includes('달러') ? 1500 : 10000);
+                        if (player.salaryType === '달러') {
+                            player.salaryIntDollar = parseInt(player.salary.replace(/[^0-9]/g, ''))
+                        }
+                    });
             });
+
+            window.addEventListener('click', (e) => {
+                if (e.target.closest('position-item') && this.players[e.target.id]) {
+                    delete this.players[e.target.id];
+                    this.render();
+                }
+                else if (e.target.id === 'order') {
+                    players.sortType = (players.sortType + 1) % 3;
+                    players.render();
+                }
+            })
             players.init(data.positions);
             players.render();
 

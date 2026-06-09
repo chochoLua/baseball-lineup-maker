@@ -11,6 +11,10 @@
     }
 }
 
+svg {
+    pointer-events: none;
+}
+
 body {
     background-color: #337a3e;
     margin: 0 auto;
@@ -52,16 +56,37 @@ body {
 
 .total-salary {
     position: absolute;
+    display: flex;
+    flex-direction: column;
     top: 10px;
     left: 10px;
-    display: inline-block;
-    padding: 0.2em 1em;
     font-size: 1.2em;
     font-weight: bold;
     color: white;
     margin-bottom: 10px;
-    background-color: #0064B2;
+}
+
+.total-salary div {
+    padding: 0.2em 1em;
+}
+.total-salary div:first-child {
     border-radius: 10px;
+    background-color: #0064B2;
+}
+.total-salary div:last-child {
+    text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
+}
+
+#order {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5em;
+    cursor: pointer;
+    margin: 0.5em;
+    padding: 0.2em 0.5em;
+    background-color: #ddd;
+    border-radius: 5px;
 }
 
 .base {
@@ -69,6 +94,7 @@ body {
     display: flex;
     height: 100%;
     background-image: url('/baseball-lineup-maker/img/bg_baseball_base.webp');
+    /* background-image: url('/img/bg_baseball_base.webp'); */
     background-repeat: no-repeat;
     background-size: 1024px 410px;
     background-position: center 80%;
@@ -86,6 +112,7 @@ body {
 }
 
 .info {
+    pointer-events: none;
     display: flex;
     align-items: center;
     height: 100%;
@@ -143,7 +170,7 @@ body {
 }
 
 #B1 {
-    right: 30%;
+    right: 25%;
     bottom: 30%;
 }
 
@@ -158,7 +185,7 @@ body {
 }
 
 #B3 {
-    left: 30%;
+    left: 25%;
     bottom: 25%;
 }
 
@@ -183,7 +210,7 @@ body {
 }
 
 #DH {
-    right: 30%;
+    right: 25%;
     bottom: 10%;
 }
 

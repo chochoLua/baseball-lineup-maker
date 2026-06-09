@@ -224,7 +224,6 @@ const main = {
         });
 
         Object.entries(this.players).forEach(([key, player]) => {
-            console.log(player, player.name, player.uuid, playerData.name, playerData.uuid);
             if (player && player.name === playerData.name && player.uuid === playerData.uuid) {
                 delete this.players[key];
             }
@@ -245,7 +244,6 @@ const main = {
 document.addEventListener('DOMContentLoaded', () => {
     const search = new URLSearchParams(location.search.substring(1));
     const streamerId = search.get('streamer') ?? 'tachocho';
-    console.log(streamerId)
     document.querySelector('#soop').style.display = streamerId === 'tachocho' ? 'inline' : 'none';
     document.querySelector('#logo').src = `img/${streamerId}.png`
 

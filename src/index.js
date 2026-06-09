@@ -126,7 +126,6 @@ const players = {
                     salary.push(this.parseWon(player.salaryInt));
                 }
                 else {
-                    console.log(player)
                     salary.push(this.parseWon(player.salaryInt));
                 }
 

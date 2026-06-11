@@ -270,9 +270,9 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             window.addEventListener('click', (e) => {
-                if (e.target.classList.contains('position-item') && this.players[e.target.id]) {
-                    delete this.players[e.target.id];
-                    this.render();
+                if (e.target.classList.contains('position-item') && main.players[e.target.id]) {
+                    delete main.players[e.target.id];
+                    main.render();
                 }
                 else if (e.target.id === 'order') {
                     players.sortType = (players.sortType + 1) % 3;

@@ -270,7 +270,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
 
             window.addEventListener('click', (e) => {
-                if (e.target.closest('position-item') && this.players[e.target.id]) {
+                if (e.target.classList.includes('position-item') && this.players[e.target.id]) {
                     delete this.players[e.target.id];
                     this.render();
                 }

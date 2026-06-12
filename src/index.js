@@ -197,7 +197,7 @@ const main = {
                 const salaryEl = posItem.querySelector('.salary');
 
                 const player = this.players[positionId];
-                if (nameEl) nameEl.innerHTML = player ? `<img style="width:60px;" src="${player.teamLogoUrl}"/><span>${player.name}</span>` : '';
+                if (nameEl) nameEl.innerHTML = player ? `<img style="width:60px;" src="${player.teamLogoUrl}" crossorigin="anonymous"/><span>${player.name}</span>` : '';
                 if (salaryEl) salaryEl.textContent = player && player.salaryInt ? players.parseWon(player.salaryInt) : '';
             }
         });
@@ -315,7 +315,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     const el = document.querySelector('.main');
 
                     const canvas = await html2canvas(el, {
-                        scale: 2
+                        scale: 2,
+                        useCORS: true,
+                        allowTaint: false,
                     });
 
                     const a = document.createElement('a');

@@ -265,18 +265,18 @@ const main = {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    const BASE_URL = location.hostname;
+    const BASE_URL = location.hostname.toLowerCase();
     const search = new URLSearchParams(location.search.substring(1));
     const streamerId = search.get('streamer') ?? 'tachocho';
     document.querySelector('#soop').style.display = streamerId === 'tachocho' ? 'inline' : 'none';
     document.querySelector('#logo').src = `img/${streamerId}.png`
 
-    if (BASE_URL !== 'chochoLua.github.io') {
+    if (BASE_URL !== 'chocholua.github.io') {
         document.body.classList.add('local-pages')
     }
 
     // kbo.json 데이터 로드
-    fetch(BASE_URL === 'chochoLua.github.io' ? '/baseball-lineup-maker/data/kbo.json' : '/data/kbo.json')
+    fetch(BASE_URL === 'chocholua.github.io' ? '/baseball-lineup-maker/data/kbo.json' : '/data/kbo.json')
         .then(response => response.json())
         .then(data => {
             const elHint = document.querySelector('.hint');

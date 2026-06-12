@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baseball Lineup Maker</title>
     <link rel="stylesheet" href="src/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
 </head>
 
 <body>
@@ -15,95 +16,126 @@
                 <img id="soop" src="img/soop_logo.svg" />
                 <img id="logo" src="img/tachocho.png" />
             </div>
+            <div class="btns">
+                <button type="button" id="image">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-crop-icon lucide-crop">
+                        <path d="M6 2v14a2 2 0 0 0 2 2h14" />
+                        <path d="M18 22V8a2 2 0 0 0-2-2H2" />
+                    </svg>
+                </button>
+                <button type="button" id="download">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-download-icon lucide-download">
+                        <path d="M12 15V3" />
+                        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                        <path d="m7 10 5 5 5-5" />
+                    </svg>
+                </button>
+            </div>
             <img src="img/title.png" class="title" onclick="window.open('https://www.sooplive.com/station/tachocho')" />
             <div class="total-salary">
                 <div>총액: <span id="totalSalary">0</span></div>
                 <div id="salaryCap"></div>
             </div>
             <div class="base">
-                <div id="LF" class="position-item">
-                    <div class="info">
-                        <div class="position">LF</div>
-                        <div class="name"></div>
+                <div class="group group-outfield">
+                    <div id="LF" class="position-item">
+                        <div class="info">
+                            <div class="position">LF</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
                     </div>
-                    <div class="salary"></div>
+                    <div id="CF" class="position-item">
+                        <div class="info">
+                            <div class="position">CF</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
+                    </div>
+                    <div id="RF" class="position-item">
+                        <div class="info">
+                            <div class="position">RF</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
+                    </div>
                 </div>
-                <div id="CF" class="position-item">
-                    <div class="info">
-                        <div class="position">CF</div>
-                        <div class="name"></div>
+                <div class="group group-infield">
+                    <div id="SS" class="position-item">
+                        <div class="info">
+                            <div class="position">SS</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
                     </div>
-                    <div class="salary"></div>
+                    <div id="B2" class="position-item">
+                        <div class="info">
+                            <div class="position">2B</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
+                    </div>
                 </div>
-                <div id="RF" class="position-item">
-                    <div class="info">
-                        <div class="position">RF</div>
-                        <div class="name"></div>
+                <div class="group group-sp">
+                    <div id="SP" class="position-item">
+                        <div class="info">
+                            <div class="position">SP</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
                     </div>
-                    <div class="salary"></div>
                 </div>
-                <div id="SS" class="position-item">
-                    <div class="info">
-                        <div class="position">SS</div>
-                        <div class="name"></div>
+                <div class="group group-base">
+                    <div id="B3" class="position-item">
+                        <div class="info">
+                            <div class="position">3B</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
                     </div>
-                    <div class="salary"></div>
+                    <div id="RP" class="position-item">
+                        <div class="info">
+                            <div class="position">RP</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
+                    </div>
+                    <div id="B1" class="position-item">
+                        <div class="info">
+                            <div class="position">1B</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
+                    </div>
                 </div>
-                <div id="B1" class="position-item">
-                    <div class="info">
-                        <div class="position">1B</div>
-                        <div class="name"></div>
+                <div class="group group-cp">
+                    <div id="CP" class="position-item">
+                        <div class="info">
+                            <div class="position">CP</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
                     </div>
-                    <div class="salary"></div>
                 </div>
-                <div id="B2" class="position-item">
-                    <div class="info">
-                        <div class="position">2B</div>
-                        <div class="name"></div>
+                <div class="group group-cdh">
+                    <div id="C" class="position-item">
+                        <div class="info">
+                            <div class="position">C</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
                     </div>
-                    <div class="salary"></div>
-                </div>
-                <div id="B3" class="position-item">
-                    <div class="info">
-                        <div class="position">3B</div>
-                        <div class="name"></div>
+                    <div id="DH" class="position-item">
+                        <div class="info">
+                            <div class="position">DH</div>
+                            <div class="name"></div>
+                        </div>
+                        <div class="salary"></div>
                     </div>
-                    <div class="salary"></div>
-                </div>
-                <div id="C" class="position-item">
-                    <div class="info">
-                        <div class="position">C</div>
-                        <div class="name"></div>
-                    </div>
-                    <div class="salary"></div>
-                </div>
-                <div id="SP" class="position-item">
-                    <div class="info">
-                        <div class="position">SP</div>
-                        <div class="name"></div>
-                    </div>
-                    <div class="salary"></div>
-                </div>
-                <div id="RP" class="position-item">
-                    <div class="info">
-                        <div class="position">RP</div>
-                        <div class="name"></div>
-                    </div>
-                    <div class="salary"></div>
-                </div>
-                <div id="CP" class="position-item">
-                    <div class="info">
-                        <div class="position">CP</div>
-                        <div class="name"></div>
-                    </div>
-                    <div class="salary"></div>
-                </div>
-                <div id="DH" class="position-item">
-                    <div class="info">
-                        <div class="position">DH</div>
-                        <div class="name"></div>
-                    </div>
-                    <div class="salary"></div>
                 </div>
             </div>
         </div>
@@ -113,7 +145,14 @@
             <h4 class="hint"></h4>
             <div id="order">
                 <div class="order-type">정렬</div>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-down-icon lucide-arrow-up-down"><path d="m21 16-4 4-4-4"/><path d="M17 20V4"/><path d="m3 8 4-4 4 4"/><path d="M7 4v16"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="lucide lucide-arrow-up-down-icon lucide-arrow-up-down">
+                    <path d="m21 16-4 4-4-4" />
+                    <path d="M17 20V4" />
+                    <path d="m3 8 4-4 4 4" />
+                    <path d="M7 4v16" />
+                </svg>
             </div>
             <div id="playerList" class="player-list">
                 <div>

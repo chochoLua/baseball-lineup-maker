@@ -30,6 +30,7 @@ body {
     flex: 3;
     padding: 20px;
     position: relative;
+    background-color: #337a3e;
 }
 
 .logo {
@@ -69,10 +70,12 @@ body {
 .total-salary div {
     padding: 0.2em 1em;
 }
+
 .total-salary div:first-child {
     border-radius: 10px;
     background-color: #0064B2;
 }
+
 .total-salary div:last-child {
     text-shadow: -2px 0px black, 0px 2px black, 2px 0px black, 0px -2px black;
 }
@@ -94,21 +97,13 @@ body {
     display: flex;
     height: 100%;
     background-image: url('/baseball-lineup-maker/img/bg_baseball_base.webp');
-    /* background-image: url('/img/bg_baseball_base.webp'); */
     background-repeat: no-repeat;
     background-size: 1024px 410px;
     background-position: center 80%;
 }
 
-.base>div {
-    position: absolute;
-    height: fit-content;
-    background-color: white;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.local-pages .base {
+    background-image: url('/img/bg_baseball_base.webp') !important;
 }
 
 .info {
@@ -154,64 +149,52 @@ body {
     padding: 0.2em 0.5em;
 }
 
-#LF {
-    left: 20%;
+.base>div.group {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: min-content;
+    justify-content: center;
+}
+
+.base>div.group>div {
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.group-outfield {
     top: 30%;
+    gap: 4rem;
 }
 
-#CF {
-    left: calc(50% - 50px);
-    top: 30%;
-}
-
-#RF {
-    left: 70%;
-    top: 30%;
-}
-
-#B1 {
-    right: 25%;
-    bottom: 30%;
-}
-
-#SS {
-    left: 35%;
+.group-infield {
     top: 45%;
+    gap: 10rem;
 }
 
-#B2 {
-    right: calc(35% - 50px);
-    top: 45%;
+.group-sp {
+    bottom: 40%;
 }
 
-#B3 {
-    left: 25%;
-    bottom: 25%;
-}
-
-#C {
-    left: calc(50% - 50px);
-    bottom: 10%
-}
-
-#SP {
-    left: calc(50% - 50px);
-    bottom: 40%
-}
-
-#RP {
-    left: calc(50% - 50px);
+.group-base {
     bottom: 30%;
+    gap: 6rem
 }
 
-#CP {
-    left: calc(50% - 50px);
+.group-cp {
     bottom: 20%;
 }
 
-#DH {
-    right: 25%;
+.group-cdh {
+    left: 50%;
+    transform: translateX(calc(-50% + 110px));
     bottom: 10%;
+    gap: 5rem;
 }
 
 .sidebar {
@@ -267,4 +250,70 @@ body {
 .hint {
     margin: 0 1em;
     text-align: right;
+}
+
+.btns {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.btns button {
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (width <=64rem) {
+    .main {
+        flex: 1;
+    }
+
+    .sidebar {
+        position: absolute;
+        width: 100vw;;
+        height: 100vh;
+        top: -100%;
+        z-index: 10001;
+    }
+
+    .sidebar.on {
+        top: 0;
+    }
+
+    .group-outfield {
+        gap: 0.5rem;
+    }
+
+    .group-infield {
+        top: 45%;
+        gap: 4rem;
+    }
+
+    .group-base {
+        bottom: 30%;
+        gap: 0.5rem
+    }
+
+    .group-cp {
+        bottom: 20%;
+    }
+
+    .group-cdh {
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10%;
+        gap: 0.5rem;
+    }
+
+    .player-item img,
+    .player-item .player-info {
+        pointer-events: none;
+    }
+
+    .position-item img { 
+        display: none;
+    }
 }

@@ -20,6 +20,10 @@ if (!Crypto.randomUUID) {
     };
 }
 
+function isMobile() {
+    return window.matchMedia('(max-width: 1024px)').matches;
+}
+
 function parseWon(amount) {
     if (typeof amount === 'string') {
         amount = parseInt(amount.replace(/[^0-9]/g, '')) || 0;
@@ -76,6 +80,7 @@ const players = {
                 li.classList.add('active');
             }
             li.addEventListener('click', () => {
+                document.querySelector('#playerList').scrollTo({ top: 0 });
                 document.querySelectorAll('.posTab li').forEach(item => item.classList.remove('active'));
                 li.classList.add('active');
                 this.current = position;
@@ -141,22 +146,40 @@ const players = {
                     </div>
                 `;
 
-                // 드래그 시작 시 플레이어 데이터 저장
-                playerItem.addEventListener('dragstart', (e) => {
-                    main.draggedPlayer = {
-                        uuid: player.uuid,
-                        name: player.name,
-                        salaryInt: player.salaryInt,
-                        salaryIntDollar: player.salaryIntDollar,
-                        position: player.position,
-                        teamLogoUrl: player.teamLogoUrl,
-                    };
-                    e.dataTransfer.effectAllowed = 'move';
-                });
+                if (isMobile()) {
+                    playerItem.addEventListener('click', (e) => {
+                        main.onPlayerDropped(window.positionItem, {
+                            uuid: player.uuid,
+                            name: player.name,
+                            salaryInt: player.salaryInt,
+                            salaryIntDollar: player.salaryIntDollar,
+                            position: player.position,
+                            teamLogoUrl: player.teamLogoUrl,
+                        });
+                        if (window.positionItem) {
+                            window.positionItem = null;
+                        }
+                        document.querySelector('.sidebar').classList.remove('on');
+                    });
+                }
+                else {
+                    // 드래그 시작 시 플레이어 데이터 저장
+                    playerItem.addEventListener('dragstart', (e) => {
+                        main.draggedPlayer = {
+                            uuid: player.uuid,
+                            name: player.name,
+                            salaryInt: player.salaryInt,
+                            salaryIntDollar: player.salaryIntDollar,
+                            position: player.position,
+                            teamLogoUrl: player.teamLogoUrl,
+                        };
+                        e.dataTransfer.effectAllowed = 'move';
+                    });
 
-                playerItem.addEventListener('dragend', () => {
-                    main.draggedPlayer = null;
-                });
+                    playerItem.addEventListener('dragend', () => {
+                        main.draggedPlayer = null;
+                    });
+                }
 
                 document.getElementById('playerList').appendChild(playerItem);
             });
@@ -242,14 +265,18 @@ const main = {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    const BASE_URL = location.hostname;
     const search = new URLSearchParams(location.search.substring(1));
     const streamerId = search.get('streamer') ?? 'tachocho';
     document.querySelector('#soop').style.display = streamerId === 'tachocho' ? 'inline' : 'none';
     document.querySelector('#logo').src = `img/${streamerId}.png`
 
+    if (BASE_URL !== 'chochoLua.github.io') {
+        document.body.classList.add('local-pages')
+    }
+
     // kbo.json 데이터 로드
-    fetch('/baseball-lineup-maker/data/kbo.json')
-    // fetch('/data/kbo.json')
+    fetch(BASE_URL === 'chochoLua.github.io' ? '/baseball-lineup-maker/data/kbo.json' : '/data/kbo.json')
         .then(response => response.json())
         .then(data => {
             const elHint = document.querySelector('.hint');
@@ -269,21 +296,64 @@ document.addEventListener('DOMContentLoaded', () => {
                     });
             });
 
-            window.addEventListener('click', (e) => {
-                if (e.target.closest('position-item') && this.players[e.target.id]) {
-                    delete this.players[e.target.id];
-                    this.render();
+            window.addEventListener('click', async (e) => {
+                if (e.target.classList.contains('position-item')) {
+                    if (isMobile()) {
+                        window.positionItem = e.target;
+                        document.querySelector('.sidebar').classList.add('on');
+                    }
+                    else if (main.players[e.target.id]) {
+                        delete main.players[e.target.id];
+                        main.render();
+                    }
                 }
                 else if (e.target.id === 'order') {
                     players.sortType = (players.sortType + 1) % 3;
                     players.render();
                 }
+                else if (e.target.id === 'image') {
+                    const el = document.querySelector('.main');
+
+                    const canvas = await html2canvas(el, {
+                        scale: 2
+                    });
+
+                    const a = document.createElement('a');
+                    a.href = canvas.toDataURL('image/png');
+                    a.download = '라인업 메이커.png';
+                    a.click();
+                }
+                else if (e.target.id === 'download') {
+                    const data = [];
+                    Object.entries(main.players).forEach(([key, player]) => {
+                        data.push({
+                            '포지션': key,
+                            '선수': player.name,
+                            '소속': player.team,
+                            '연봉': player.salaryInt,
+                        });
+                    });
+                    const blob = new Blob([JSON.stringify(data)], { type: 'application/json' });
+                    const url = URL.createObjectURL(blob);
+
+                    const a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'data.json';
+                    a.click();
+
+                    URL.revokeObjectURL(url)
+                    setTimeout(() => {
+                        a.remove();
+                    }, 1000)
+                }
             })
             players.init(data.positions);
             players.render();
 
-            // 드래그 드롭 초기화
-            main.initDragDrop();
+            if (!isMobile()) {
+                // 드래그 드롭 초기화
+                main.initDragDrop();
+            }
 
             main.render();
         })

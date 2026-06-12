@@ -276,7 +276,7 @@ body {
         position: absolute;
         width: 100vw;;
         height: 100vh;
-        top: -100%;
+        top: -100vh;
         z-index: 10001;
     }
 

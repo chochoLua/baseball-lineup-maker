@@ -1,13 +1,13 @@
 {
   "source": {
-    "generatedAt": "2026-06-12T12:19:34.191Z",
+    "generatedAt": "2026-06-13T06:13:32.719Z",
     "kbo": {
-      "sourceDate": "2026.06.12(금)",
+      "sourceDate": "2026.06.13(토)",
       "playerCount": 291
     },
     "futures": {
-      "sourceDate": "2026.06.12(금)",
-      "playerCount": 300
+      "sourceDate": "2026.06.13(토)",
+      "playerCount": 251
     },
     "filters": {
       "level": "ALL",
@@ -15,31 +15,30 @@
       "position": "ALL",
       "name": ""
     },
-    "playerCount": 591,
+    "playerCount": 542,
     "countByLevel": {
       "KBO": 291,
-      "FUTURES": 300
+      "FUTURES": 251
     },
     "countByPosition": {
-      "투수": 258,
-      "포수": 54,
-      "내야수": 154,
-      "외야수": 125
+      "투수": 240,
+      "포수": 50,
+      "내야수": 143,
+      "외야수": 109
     },
     "countByTeam": {
-      "KT 위즈": 50,
-      "LG 트윈스": 54,
+      "KT 위즈": 55,
+      "LG 트윈스": 53,
       "삼성 라이온즈": 55,
-      "SSG 랜더스": 52,
-      "KIA 타이거즈": 55,
+      "SSG 랜더스": 30,
+      "KIA 타이거즈": 54,
       "한화 이글스": 55,
-      "두산 베어스": 54,
-      "NC 다이노스": 54,
-      "롯데 자이언츠": 55,
+      "두산 베어스": 55,
+      "NC 다이노스": 52,
+      "롯데 자이언츠": 52,
       "키움 히어로즈": 29,
       "고양 히어로즈": 26,
-      "상무": 26,
-      "울산 웨일즈": 26
+      "상무": 26
     }
   },
   "positions": {
@@ -79,18 +78,6 @@
         "backNumber": "12",
         "salary": "20000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/73117.jpg"
-      },
-      {
-        "level": "KBO",
-        "levelName": "1군",
-        "teamCode": "KT",
-        "team": "KT 위즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_KT.png",
-        "position": "투수",
-        "name": "문용익",
-        "backNumber": "18",
-        "salary": "7000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67419.jpg"
       },
       {
         "level": "KBO",
@@ -207,18 +194,6 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_KT.png",
         "position": "투수",
-        "name": "한승주",
-        "backNumber": "59",
-        "salary": "4500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50726.jpg"
-      },
-      {
-        "level": "KBO",
-        "levelName": "1군",
-        "teamCode": "KT",
-        "team": "KT 위즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_KT.png",
-        "position": "투수",
         "name": "박영현",
         "backNumber": "60",
         "salary": "30000만원",
@@ -247,18 +222,6 @@
         "backNumber": "11",
         "salary": "80000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/63248.jpg"
-      },
-      {
-        "level": "KBO",
-        "levelName": "1군",
-        "teamCode": "LG",
-        "team": "LG 트윈스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_LG.png",
-        "position": "투수",
-        "name": "김대현",
-        "backNumber": "12",
-        "salary": "5800만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/66145.jpg"
       },
       {
         "level": "KBO",
@@ -307,6 +270,18 @@
         "backNumber": "30",
         "salary": "800000달러",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55130.jpg"
+      },
+      {
+        "level": "KBO",
+        "levelName": "1군",
+        "teamCode": "LG",
+        "team": "LG 트윈스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_LG.png",
+        "position": "투수",
+        "name": "이상영",
+        "backNumber": "39",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69168.jpg"
       },
       {
         "level": "KBO",
@@ -559,6 +534,18 @@
         "backNumber": "64",
         "salary": "50000달러",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56464.jpg"
+      },
+      {
+        "level": "KBO",
+        "levelName": "1군",
+        "teamCode": "SS",
+        "team": "삼성 라이온즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_SS.png",
+        "position": "투수",
+        "name": "후라도",
+        "backNumber": "75",
+        "salary": "1300000달러",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53375.jpg"
       },
       {
         "level": "KBO",
@@ -1551,10 +1538,10 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_LT.png",
         "position": "투수",
-        "name": "정현수",
-        "backNumber": "57",
-        "salary": "9000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54537.jpg"
+        "name": "정철원",
+        "backNumber": "65",
+        "salary": "18000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68242.jpg"
       },
       {
         "level": "KBO",
@@ -1743,22 +1730,10 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "투수",
-        "name": "한차현",
-        "backNumber": "2",
-        "salary": "4000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51058.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "KT",
-        "team": "KT 위즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
-        "position": "투수",
-        "name": "임준형",
-        "backNumber": "14",
-        "salary": "5500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69113.jpg"
+        "name": "이채호",
+        "backNumber": "17",
+        "salary": "5200만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68896.jpg"
       },
       {
         "level": "FUTURES",
@@ -1791,10 +1766,22 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "투수",
-        "name": "조이현",
-        "backNumber": "54",
-        "salary": "6300만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64768.jpg"
+        "name": "이현민",
+        "backNumber": "49",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54014.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "KT",
+        "team": "KT 위즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
+        "position": "투수",
+        "name": "김정운",
+        "backNumber": "61",
+        "salary": "3100만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53029.jpg"
       },
       {
         "level": "FUTURES",
@@ -1815,6 +1802,18 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "투수",
+        "name": "고준혁",
+        "backNumber": "68",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56068.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "KT",
+        "team": "KT 위즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
+        "position": "투수",
         "name": "이준명",
         "backNumber": "95",
         "salary": "3000만원",
@@ -1823,14 +1822,26 @@
       {
         "level": "FUTURES",
         "levelName": "퓨처스",
-        "teamCode": "LG",
-        "team": "LG 트윈스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
+        "teamCode": "KT",
+        "team": "KT 위즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "투수",
-        "name": "이정용",
-        "backNumber": "31",
-        "salary": "27000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69134.jpg"
+        "name": "장민호",
+        "backNumber": "100",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55010.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "KT",
+        "team": "KT 위즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
+        "position": "투수",
+        "name": "김휘연",
+        "backNumber": "113",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56013.jpg"
       },
       {
         "level": "FUTURES",
@@ -1839,10 +1850,34 @@
         "team": "LG 트윈스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
         "position": "투수",
-        "name": "조원태",
-        "backNumber": "38",
-        "salary": "3300만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52149.jpg"
+        "name": "정우영",
+        "backNumber": "18",
+        "salary": "10000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69159.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "LG",
+        "team": "LG 트윈스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
+        "position": "투수",
+        "name": "이우찬",
+        "backNumber": "21",
+        "salary": "8000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/61145.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "LG",
+        "team": "LG 트윈스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
+        "position": "투수",
+        "name": "성동현",
+        "backNumber": "34",
+        "salary": "4200만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68159.jpg"
       },
       {
         "level": "FUTURES",
@@ -1887,18 +1922,6 @@
         "team": "LG 트윈스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
         "position": "투수",
-        "name": "박준성",
-        "backNumber": "59",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56159.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "LG",
-        "team": "LG 트윈스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
-        "position": "투수",
         "name": "진우영",
         "backNumber": "101",
         "salary": "3300만원",
@@ -1935,18 +1958,6 @@
         "team": "LG 트윈스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
         "position": "투수",
-        "name": "양진혁",
-        "backNumber": "127",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52123.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "LG",
-        "team": "LG 트윈스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
-        "position": "투수",
         "name": "허준혁",
         "backNumber": "129",
         "salary": "3300만원",
@@ -1959,10 +1970,10 @@
         "team": "삼성 라이온즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
         "position": "투수",
-        "name": "육선엽",
-        "backNumber": "4",
-        "salary": "4200만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54404.jpg"
+        "name": "양현",
+        "backNumber": "19",
+        "salary": "6500만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/61268.jpg"
       },
       {
         "level": "FUTURES",
@@ -1971,10 +1982,10 @@
         "team": "삼성 라이온즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
         "position": "투수",
-        "name": "김태훈",
-        "backNumber": "27",
-        "salary": "30000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62360.jpg"
+        "name": "홍원표",
+        "backNumber": "65",
+        "salary": "3550만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50430.jpg"
       },
       {
         "level": "FUTURES",
@@ -1983,46 +1994,10 @@
         "team": "삼성 라이온즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
         "position": "투수",
-        "name": "최하늘",
-        "backNumber": "37",
-        "salary": "5500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68501.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SS",
-        "team": "삼성 라이온즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
-        "position": "투수",
-        "name": "이재익",
-        "backNumber": "45",
-        "salary": "6200만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/63492.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SS",
-        "team": "삼성 라이온즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
-        "position": "투수",
-        "name": "김상호",
-        "backNumber": "67",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56467.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SS",
-        "team": "삼성 라이온즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
-        "position": "투수",
-        "name": "박용재",
-        "backNumber": "68",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56468.jpg"
+        "name": "박주혁",
+        "backNumber": "101",
+        "salary": "3900만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50411.jpg"
       },
       {
         "level": "FUTURES",
@@ -2035,6 +2010,42 @@
         "backNumber": "108",
         "salary": "5000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50449.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "SS",
+        "team": "삼성 라이온즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
+        "position": "투수",
+        "name": "최예한",
+        "backNumber": "109",
+        "salary": "3100만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55419.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "SS",
+        "team": "삼성 라이온즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
+        "position": "투수",
+        "name": "홍준영",
+        "backNumber": "112",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55412.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "SS",
+        "team": "삼성 라이온즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
+        "position": "투수",
+        "name": "진희성",
+        "backNumber": "115",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55415.jpg"
       },
       {
         "level": "FUTURES",
@@ -2067,94 +2078,10 @@
         "team": "삼성 라이온즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
         "position": "투수",
-        "name": "이서준",
-        "backNumber": "133",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56433.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "투수",
-        "name": "장지훈",
-        "backNumber": "21",
-        "salary": "7500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51895.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "투수",
-        "name": "서진용",
-        "backNumber": "22",
-        "salary": "18000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/61895.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "투수",
-        "name": "김택형",
-        "backNumber": "43",
-        "salary": "15000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65343.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "투수",
-        "name": "박종훈",
-        "backNumber": "50",
-        "salary": "110000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/60841.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "투수",
-        "name": "정동윤",
-        "backNumber": "51",
-        "salary": "3300만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/66858.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "투수",
-        "name": "최수호",
-        "backNumber": "62",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69893.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "투수",
-        "name": "류현곤",
-        "backNumber": "104",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53806.jpg"
+        "name": "홍승원",
+        "backNumber": "131",
+        "salary": "3500만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51408.jpg"
       },
       {
         "level": "FUTURES",
@@ -2199,34 +2126,34 @@
         "team": "KIA 타이거즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
         "position": "투수",
-        "name": "김건국",
-        "backNumber": "43",
+        "name": "정찬화",
+        "backNumber": "45",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56645.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "HT",
+        "team": "KIA 타이거즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
+        "position": "투수",
+        "name": "전상현",
+        "backNumber": "51",
+        "salary": "31000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/66609.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "HT",
+        "team": "KIA 타이거즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
+        "position": "투수",
+        "name": "김기훈",
+        "backNumber": "53",
         "salary": "6500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/76225.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "HT",
-        "team": "KIA 타이거즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
-        "position": "투수",
-        "name": "김시훈",
-        "backNumber": "61",
-        "salary": "11000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68928.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "HT",
-        "team": "KIA 타이거즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
-        "position": "투수",
-        "name": "홍민규",
-        "backNumber": "67",
-        "salary": "4300만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55267.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69620.jpg"
       },
       {
         "level": "FUTURES",
@@ -2239,6 +2166,18 @@
         "backNumber": "69",
         "salary": "7000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/60337.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "HT",
+        "team": "KIA 타이거즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
+        "position": "투수",
+        "name": "강이준",
+        "backNumber": "102",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67604.jpg"
       },
       {
         "level": "FUTURES",
@@ -2279,26 +2218,14 @@
       {
         "level": "FUTURES",
         "levelName": "퓨처스",
-        "teamCode": "HT",
-        "team": "KIA 타이거즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
-        "position": "투수",
-        "name": "최유찬",
-        "backNumber": "147",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56647.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
         "teamCode": "HH",
         "team": "한화 이글스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HH.png",
         "position": "투수",
-        "name": "김종수",
-        "backNumber": "38",
-        "salary": "11700만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/63765.jpg"
+        "name": "이교훈",
+        "backNumber": "31",
+        "salary": "3800만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69205.jpg"
       },
       {
         "level": "FUTURES",
@@ -2367,34 +2294,10 @@
         "team": "한화 이글스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HH.png",
         "position": "투수",
-        "name": "권민규",
-        "backNumber": "64",
-        "salary": "3200만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55764.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "HH",
-        "team": "한화 이글스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HH.png",
-        "position": "투수",
         "name": "주현상",
         "backNumber": "66",
         "salary": "18700만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65707.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "HH",
-        "team": "한화 이글스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HH.png",
-        "position": "투수",
-        "name": "강건우",
-        "backNumber": "69",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56769.jpg"
       },
       {
         "level": "FUTURES",
@@ -2423,14 +2326,14 @@
       {
         "level": "FUTURES",
         "levelName": "퓨처스",
-        "teamCode": "HH",
-        "team": "한화 이글스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HH.png",
+        "teamCode": "OB",
+        "team": "두산 베어스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
         "position": "투수",
-        "name": "김관우",
-        "backNumber": "112",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53701.jpg"
+        "name": "박정수",
+        "backNumber": "17",
+        "salary": "6400만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65639.jpg"
       },
       {
         "level": "FUTURES",
@@ -2487,10 +2390,10 @@
         "team": "두산 베어스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
         "position": "투수",
-        "name": "김지윤",
-        "backNumber": "104",
+        "name": "장우진",
+        "backNumber": "106",
         "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55222.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53267.jpg"
       },
       {
         "level": "FUTURES",
@@ -2503,18 +2406,6 @@
         "backNumber": "107",
         "salary": "3000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55258.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "OB",
-        "team": "두산 베어스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
-        "position": "투수",
-        "name": "정성헌",
-        "backNumber": "119",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56219.jpg"
       },
       {
         "level": "FUTURES",
@@ -2631,18 +2522,6 @@
         "team": "NC 다이노스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_NC.png",
         "position": "투수",
-        "name": "강태경",
-        "backNumber": "100",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50905.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "NC",
-        "team": "NC 다이노스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_NC.png",
-        "position": "투수",
         "name": "노재원",
         "backNumber": "110",
         "salary": "3000만원",
@@ -2691,10 +2570,34 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
         "position": "투수",
-        "name": "김영준",
-        "backNumber": "35",
-        "salary": "4200만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68130.jpg"
+        "name": "김태혁",
+        "backNumber": "24",
+        "salary": "15000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/76430.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "LT",
+        "team": "롯데 자이언츠",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
+        "position": "투수",
+        "name": "이영재",
+        "backNumber": "40",
+        "salary": "3100만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55503.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "LT",
+        "team": "롯데 자이언츠",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
+        "position": "투수",
+        "name": "박세진",
+        "backNumber": "41",
+        "salary": "3700만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/66047.jpg"
       },
       {
         "level": "FUTURES",
@@ -2715,22 +2618,10 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
         "position": "투수",
-        "name": "정철원",
-        "backNumber": "65",
-        "salary": "18000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68242.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "LT",
-        "team": "롯데 자이언츠",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
-        "position": "투수",
-        "name": "박로건",
-        "backNumber": "117",
-        "salary": "3100만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50563.jpg"
+        "name": "송재영",
+        "backNumber": "59",
+        "salary": "4700만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51594.jpg"
       },
       {
         "level": "FUTURES",
@@ -2743,18 +2634,6 @@
         "backNumber": "118",
         "salary": "3000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52560.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "LT",
-        "team": "롯데 자이언츠",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
-        "position": "투수",
-        "name": "조경민",
-        "backNumber": "128",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53504.jpg"
       },
       {
         "level": "FUTURES",
@@ -2835,22 +2714,10 @@
         "team": "고양 히어로즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
         "position": "투수",
-        "name": "정다훈",
-        "backNumber": "45",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56345.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "WO",
-        "team": "고양 히어로즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
-        "position": "투수",
-        "name": "김선기",
-        "backNumber": "49",
-        "salary": "8400만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/66018.jpg"
+        "name": "전준표",
+        "backNumber": "62",
+        "salary": "3500만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54362.jpg"
       },
       {
         "level": "FUTURES",
@@ -2871,10 +2738,10 @@
         "team": "고양 히어로즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
         "position": "투수",
-        "name": "정세영",
-        "backNumber": "64",
-        "salary": "3100만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55377.jpg"
+        "name": "백진수",
+        "backNumber": "91",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52392.jpg"
       },
       {
         "level": "FUTURES",
@@ -2907,10 +2774,34 @@
         "team": "고양 히어로즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
         "position": "투수",
-        "name": "이태준",
-        "backNumber": "109",
+        "name": "정동준",
+        "backNumber": "107",
         "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54301.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55385.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "WO",
+        "team": "고양 히어로즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
+        "position": "투수",
+        "name": "김태언",
+        "backNumber": "113",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56313.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "WO",
+        "team": "고양 히어로즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
+        "position": "투수",
+        "name": "이승재",
+        "backNumber": "118",
+        "salary": "1500만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56308.jpg"
       },
       {
         "level": "FUTURES",
@@ -2955,6 +2846,18 @@
         "team": "상무",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SM.png",
         "position": "투수",
+        "name": "이호민",
+        "backNumber": "38",
+        "salary": "",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55663.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "SM",
+        "team": "상무",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SM.png",
+        "position": "투수",
         "name": "박명근",
         "backNumber": "39",
         "salary": "",
@@ -2991,18 +2894,6 @@
         "team": "상무",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SM.png",
         "position": "투수",
-        "name": "송영진",
-        "backNumber": "55",
-        "salary": "",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53898.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SM",
-        "team": "상무",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SM.png",
-        "position": "투수",
         "name": "박지호",
         "backNumber": "59",
         "salary": "",
@@ -3031,117 +2922,21 @@
         "backNumber": "75",
         "salary": "",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54149.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "투수",
-        "name": "진현우",
-        "backNumber": "1",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/31031.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "투수",
-        "name": "고바야시",
-        "backNumber": "11",
-        "salary": "12000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/31011.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "투수",
-        "name": "서영준",
-        "backNumber": "15",
-        "salary": "",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55012.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "투수",
-        "name": "김도규",
-        "backNumber": "22",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68585.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "투수",
-        "name": "김준우",
-        "backNumber": "28",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69404.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "투수",
-        "name": "고효준",
-        "backNumber": "29",
-        "salary": "",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/72523.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "투수",
-        "name": "심재민",
-        "backNumber": "34",
-        "salary": "",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64017.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "투수",
-        "name": "나가",
-        "backNumber": "48",
-        "salary": "10000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/31048.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "투수",
-        "name": "이승근",
-        "backNumber": "67",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/31067.jpg"
       }
     ],
     "포수": [
+      {
+        "level": "KBO",
+        "levelName": "1군",
+        "teamCode": "KT",
+        "team": "KT 위즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_KT.png",
+        "position": "포수",
+        "name": "장성우",
+        "backNumber": "22",
+        "salary": "30000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/78548.jpg"
+      },
       {
         "level": "KBO",
         "levelName": "1군",
@@ -3213,18 +3008,6 @@
         "backNumber": "46",
         "salary": "4800만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/63202.jpg"
-      },
-      {
-        "level": "KBO",
-        "levelName": "1군",
-        "teamCode": "SS",
-        "team": "삼성 라이온즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_SS.png",
-        "position": "포수",
-        "name": "강민호",
-        "backNumber": "47",
-        "salary": "30000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/74540.jpg"
       },
       {
         "level": "KBO",
@@ -3365,10 +3148,10 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_LT.png",
         "position": "포수",
-        "name": "박재엽",
-        "backNumber": "26",
-        "salary": "3200만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55563.jpg"
+        "name": "유강남",
+        "backNumber": "27",
+        "salary": "70000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/61102.jpg"
       },
       {
         "level": "KBO",
@@ -3413,10 +3196,10 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "포수",
-        "name": "김민석",
-        "backNumber": "44",
-        "salary": "3200만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54097.jpg"
+        "name": "조대현",
+        "backNumber": "42",
+        "salary": "6100만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68089.jpg"
       },
       {
         "level": "FUTURES",
@@ -3425,10 +3208,10 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "포수",
-        "name": "이정환",
-        "backNumber": "103",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55003.jpg"
+        "name": "김민석",
+        "backNumber": "44",
+        "salary": "3200만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54097.jpg"
       },
       {
         "level": "FUTURES",
@@ -3449,10 +3232,22 @@
         "team": "LG 트윈스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
         "position": "포수",
-        "name": "이한림",
-        "backNumber": "106",
+        "name": "전경원",
+        "backNumber": "128",
         "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55100.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68869.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "SS",
+        "team": "삼성 라이온즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
+        "position": "포수",
+        "name": "김재성",
+        "backNumber": "2",
+        "salary": "5000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65132.jpg"
       },
       {
         "level": "FUTURES",
@@ -3489,30 +3284,6 @@
         "backNumber": "134",
         "salary": "3000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56434.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "포수",
-        "name": "김민식",
-        "backNumber": "24",
-        "salary": "10000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62864.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "포수",
-        "name": "이지영",
-        "backNumber": "56",
-        "salary": "20000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/79456.jpg"
       },
       {
         "level": "FUTURES",
@@ -3565,6 +3336,18 @@
       {
         "level": "FUTURES",
         "levelName": "퓨처스",
+        "teamCode": "HH",
+        "team": "한화 이글스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HH.png",
+        "position": "포수",
+        "name": "정우성",
+        "backNumber": "115",
+        "salary": "1500만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53008.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
         "teamCode": "OB",
         "team": "두산 베어스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
@@ -3581,10 +3364,10 @@
         "team": "두산 베어스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
         "position": "포수",
-        "name": "류현준",
-        "backNumber": "67",
-        "salary": "3200만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54219.jpg"
+        "name": "장규빈",
+        "backNumber": "44",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50244.jpg"
       },
       {
         "level": "FUTURES",
@@ -3593,10 +3376,10 @@
         "team": "두산 베어스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
         "position": "포수",
-        "name": "이희성",
-        "backNumber": "121",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56221.jpg"
+        "name": "류현준",
+        "backNumber": "67",
+        "salary": "3200만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54219.jpg"
       },
       {
         "level": "FUTURES",
@@ -3641,18 +3424,6 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
         "position": "포수",
-        "name": "유강남",
-        "backNumber": "27",
-        "salary": "70000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/61102.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "LT",
-        "team": "롯데 자이언츠",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
-        "position": "포수",
         "name": "정보근",
         "backNumber": "42",
         "salary": "7000만원",
@@ -3689,10 +3460,10 @@
         "team": "고양 히어로즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
         "position": "포수",
-        "name": "김리안",
-        "backNumber": "103",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52398.jpg"
+        "name": "김재현",
+        "backNumber": "32",
+        "salary": "10000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62332.jpg"
       },
       {
         "level": "FUTURES",
@@ -3701,10 +3472,10 @@
         "team": "고양 히어로즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
         "position": "포수",
-        "name": "김지성",
-        "backNumber": "105",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54397.jpg"
+        "name": "박성빈",
+        "backNumber": "56",
+        "salary": "3100만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53305.jpg"
       },
       {
         "level": "FUTURES",
@@ -3753,42 +3524,6 @@
         "backNumber": "63",
         "salary": "",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52105.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "포수",
-        "name": "홀",
-        "backNumber": "12",
-        "salary": "13000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/31012.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "포수",
-        "name": "박제범",
-        "backNumber": "26",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51805.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "포수",
-        "name": "민성우",
-        "backNumber": "38",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52583.jpg"
       }
     ],
     "내야수": [
@@ -3991,18 +3726,6 @@
         "team": "삼성 라이온즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_SS.png",
         "position": "내야수",
-        "name": "이재현",
-        "backNumber": "7",
-        "salary": "29000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52415.jpg"
-      },
-      {
-        "level": "KBO",
-        "levelName": "1군",
-        "teamCode": "SS",
-        "team": "삼성 라이온즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_SS.png",
-        "position": "내야수",
         "name": "박계범",
         "backNumber": "9",
         "salary": "7700만원",
@@ -4019,6 +3742,18 @@
         "backNumber": "16",
         "salary": "70000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62234.jpg"
+      },
+      {
+        "level": "KBO",
+        "levelName": "1군",
+        "teamCode": "SS",
+        "team": "삼성 라이온즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_SS.png",
+        "position": "내야수",
+        "name": "이창용",
+        "backNumber": "50",
+        "salary": "3700만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51407.jpg"
       },
       {
         "level": "KBO",
@@ -4219,10 +3954,10 @@
         "team": "KIA 타이거즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_HT.png",
         "position": "내야수",
-        "name": "아데를린",
-        "backNumber": "24",
-        "salary": "50000달러",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56613.jpg"
+        "name": "변우혁",
+        "backNumber": "29",
+        "salary": "6500만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69727.jpg"
       },
       {
         "level": "KBO",
@@ -4231,10 +3966,10 @@
         "team": "KIA 타이거즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_HT.png",
         "position": "내야수",
-        "name": "변우혁",
-        "backNumber": "29",
-        "salary": "6500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69727.jpg"
+        "name": "황대인",
+        "backNumber": "34",
+        "salary": "5500만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65610.jpg"
       },
       {
         "level": "KBO",
@@ -4411,6 +4146,18 @@
         "team": "NC 다이노스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_NC.png",
         "position": "내야수",
+        "name": "오태양",
+        "backNumber": "6",
+        "salary": "3300만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51996.jpg"
+      },
+      {
+        "level": "KBO",
+        "levelName": "1군",
+        "teamCode": "NC",
+        "team": "NC 다이노스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_NC.png",
+        "position": "내야수",
         "name": "김주원",
         "backNumber": "7",
         "salary": "35000만원",
@@ -4507,18 +4254,6 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_LT.png",
         "position": "내야수",
-        "name": "최항",
-        "backNumber": "14",
-        "salary": "4600만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62884.jpg"
-      },
-      {
-        "level": "KBO",
-        "levelName": "1군",
-        "teamCode": "LT",
-        "team": "롯데 자이언츠",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_LT.png",
-        "position": "내야수",
         "name": "이호준",
         "backNumber": "30",
         "salary": "5500만원",
@@ -4535,6 +4270,18 @@
         "backNumber": "51",
         "salary": "9500만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51551.jpg"
+      },
+      {
+        "level": "KBO",
+        "levelName": "1군",
+        "teamCode": "LT",
+        "team": "롯데 자이언츠",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_LT.png",
+        "position": "내야수",
+        "name": "노진혁",
+        "backNumber": "52",
+        "salary": "60000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62931.jpg"
       },
       {
         "level": "KBO",
@@ -4699,6 +4446,18 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "내야수",
+        "name": "장준원",
+        "backNumber": "56",
+        "salary": "6600만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64115.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "KT",
+        "team": "KT 위즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
+        "position": "내야수",
         "name": "손민석",
         "backNumber": "57",
         "salary": "3100만원",
@@ -4711,10 +4470,10 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "내야수",
-        "name": "임상우",
-        "backNumber": "94",
+        "name": "김건휘",
+        "backNumber": "97",
         "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56001.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56097.jpg"
       },
       {
         "level": "FUTURES",
@@ -4791,6 +4550,18 @@
       {
         "level": "FUTURES",
         "levelName": "퓨처스",
+        "teamCode": "LG",
+        "team": "LG 트윈스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
+        "position": "내야수",
+        "name": "곽민호",
+        "backNumber": "124",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53104.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
         "teamCode": "SS",
         "team": "삼성 라이온즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
@@ -4811,18 +4582,6 @@
         "backNumber": "35",
         "salary": "3000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55435.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SS",
-        "team": "삼성 라이온즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SS.png",
-        "position": "내야수",
-        "name": "이창용",
-        "backNumber": "50",
-        "salary": "3700만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51407.jpg"
       },
       {
         "level": "FUTURES",
@@ -4863,78 +4622,6 @@
       {
         "level": "FUTURES",
         "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "내야수",
-        "name": "김민준",
-        "backNumber": "5",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53893.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "내야수",
-        "name": "장현진",
-        "backNumber": "05",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55899.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "내야수",
-        "name": "박명현",
-        "backNumber": "07",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50592.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "내야수",
-        "name": "고명준",
-        "backNumber": "18",
-        "salary": "16000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51868.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "내야수",
-        "name": "석정우",
-        "backNumber": "52",
-        "salary": "3500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52804.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "내야수",
-        "name": "안재연",
-        "backNumber": "111",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56811.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
         "teamCode": "HT",
         "team": "KIA 타이거즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
@@ -4955,18 +4642,6 @@
         "backNumber": "23",
         "salary": "4500만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65464.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "HT",
-        "team": "KIA 타이거즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
-        "position": "내야수",
-        "name": "황대인",
-        "backNumber": "34",
-        "salary": "5500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65610.jpg"
       },
       {
         "level": "FUTURES",
@@ -5047,6 +4722,18 @@
         "team": "한화 이글스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HH.png",
         "position": "내야수",
+        "name": "김준수",
+        "backNumber": "04",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56704.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "HH",
+        "team": "한화 이글스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HH.png",
+        "position": "내야수",
         "name": "이지성",
         "backNumber": "4",
         "salary": "",
@@ -5075,6 +4762,18 @@
         "backNumber": "16",
         "salary": "20000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62700.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "HH",
+        "team": "한화 이글스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HH.png",
+        "position": "내야수",
+        "name": "정은원",
+        "backNumber": "43",
+        "salary": "13500만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68743.jpg"
       },
       {
         "level": "FUTURES",
@@ -5131,10 +4830,34 @@
         "team": "두산 베어스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
         "position": "내야수",
+        "name": "김민혁",
+        "backNumber": "10",
+        "salary": "3300만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/65269.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "OB",
+        "team": "두산 베어스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
+        "position": "내야수",
         "name": "김동준",
         "backNumber": "11",
         "salary": "4100만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52267.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "OB",
+        "team": "두산 베어스",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
+        "position": "내야수",
+        "name": "양석환",
+        "backNumber": "53",
+        "salary": "30000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64153.jpg"
       },
       {
         "level": "FUTURES",
@@ -5167,10 +4890,10 @@
         "team": "두산 베어스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
         "position": "내야수",
-        "name": "심건보",
-        "backNumber": "117",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56217.jpg"
+        "name": "김준상",
+        "backNumber": "110",
+        "salary": "3100만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55226.jpg"
       },
       {
         "level": "FUTURES",
@@ -5179,10 +4902,10 @@
         "team": "두산 베어스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
         "position": "내야수",
-        "name": "남태웅",
-        "backNumber": "118",
+        "name": "심건보",
+        "backNumber": "117",
         "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56208.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56217.jpg"
       },
       {
         "level": "FUTURES",
@@ -5195,18 +4918,6 @@
         "backNumber": "4",
         "salary": "3000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56904.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "NC",
-        "team": "NC 다이노스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_NC.png",
-        "position": "내야수",
-        "name": "오태양",
-        "backNumber": "6",
-        "salary": "3300만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51996.jpg"
       },
       {
         "level": "FUTURES",
@@ -5263,10 +4974,10 @@
         "team": "NC 다이노스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_NC.png",
         "position": "내야수",
-        "name": "박인우",
-        "backNumber": "112",
+        "name": "김건",
+        "backNumber": "52",
         "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54911.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56952.jpg"
       },
       {
         "level": "FUTURES",
@@ -5311,10 +5022,10 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
         "position": "내야수",
-        "name": "노진혁",
-        "backNumber": "52",
-        "salary": "60000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62931.jpg"
+        "name": "한동희",
+        "backNumber": "25",
+        "salary": "16200만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68525.jpg"
       },
       {
         "level": "FUTURES",
@@ -5323,10 +5034,10 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
         "position": "내야수",
-        "name": "김호범",
-        "backNumber": "112",
+        "name": "이정민",
+        "backNumber": "113",
         "salary": "1500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56512.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56513.jpg"
       },
       {
         "level": "FUTURES",
@@ -5343,26 +5054,14 @@
       {
         "level": "FUTURES",
         "levelName": "퓨처스",
-        "teamCode": "LT",
-        "team": "롯데 자이언츠",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
-        "position": "내야수",
-        "name": "홍서연",
-        "backNumber": "119",
-        "salary": "1500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56519.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
         "teamCode": "WO",
         "team": "고양 히어로즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
         "position": "내야수",
-        "name": "이재상",
-        "backNumber": "5",
-        "salary": "3100만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54305.jpg"
+        "name": "김지석",
+        "backNumber": "26",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56326.jpg"
       },
       {
         "level": "FUTURES",
@@ -5543,102 +5242,6 @@
         "backNumber": "68",
         "salary": "",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54408.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "내야수",
-        "name": "박민석",
-        "backNumber": "2",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/69056.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "내야수",
-        "name": "노강민",
-        "backNumber": "6",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/31006.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "내야수",
-        "name": "신준우",
-        "backNumber": "7",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50312.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "내야수",
-        "name": "김성균",
-        "backNumber": "10",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50093.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "내야수",
-        "name": "이민석",
-        "backNumber": "13",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52209.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "내야수",
-        "name": "김수인",
-        "backNumber": "16",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50115.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "내야수",
-        "name": "오현석",
-        "backNumber": "36",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/51466.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "내야수",
-        "name": "배영빈",
-        "backNumber": "52",
-        "salary": "",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53587.jpg"
       }
     ],
     "외야수": [
@@ -5653,6 +5256,18 @@
         "backNumber": "3",
         "salary": "60000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/66606.jpg"
+      },
+      {
+        "level": "KBO",
+        "levelName": "1군",
+        "teamCode": "KT",
+        "team": "KT 위즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_KT.png",
+        "position": "외야수",
+        "name": "안치영",
+        "backNumber": "8",
+        "salary": "5000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67006.jpg"
       },
       {
         "level": "KBO",
@@ -5937,6 +5552,18 @@
         "team": "KIA 타이거즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_HT.png",
         "position": "외야수",
+        "name": "한승연",
+        "backNumber": "31",
+        "salary": "3100만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52628.jpg"
+      },
+      {
+        "level": "KBO",
+        "levelName": "1군",
+        "teamCode": "HT",
+        "team": "KIA 타이거즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_HT.png",
+        "position": "외야수",
         "name": "김민규",
         "backNumber": "37",
         "salary": "3000만원",
@@ -5953,18 +5580,6 @@
         "backNumber": "47",
         "salary": "80000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62947.jpg"
-      },
-      {
-        "level": "KBO",
-        "levelName": "1군",
-        "teamCode": "HT",
-        "team": "KIA 타이거즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_HT.png",
-        "position": "외야수",
-        "name": "고종욱",
-        "backNumber": "57",
-        "salary": "10000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/61353.jpg"
       },
       {
         "level": "KBO",
@@ -6141,18 +5756,6 @@
         "team": "NC 다이노스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_NC.png",
         "position": "외야수",
-        "name": "한석현",
-        "backNumber": "33",
-        "salary": "4800만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/64101.jpg"
-      },
-      {
-        "level": "KBO",
-        "levelName": "1군",
-        "teamCode": "NC",
-        "team": "NC 다이노스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_NC.png",
-        "position": "외야수",
         "name": "권희동",
         "backNumber": "36",
         "salary": "25000만원",
@@ -6225,10 +5828,10 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_LT.png",
         "position": "외야수",
-        "name": "조세진",
-        "backNumber": "12",
-        "salary": "3800만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52516.jpg"
+        "name": "전준우",
+        "backNumber": "8",
+        "salary": "70000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/78513.jpg"
       },
       {
         "level": "KBO",
@@ -6297,10 +5900,10 @@
         "team": "키움 히어로즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblem_WO.png",
         "position": "외야수",
-        "name": "이형종",
-        "backNumber": "36",
-        "salary": "60000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/78135.jpg"
+        "name": "원성준",
+        "backNumber": "33",
+        "salary": "3700만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54307.jpg"
       },
       {
         "level": "KBO",
@@ -6345,6 +5948,18 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "외야수",
+        "name": "안현민",
+        "backNumber": "23",
+        "salary": "18000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52001.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "KT",
+        "team": "KT 위즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
+        "position": "외야수",
         "name": "최성민",
         "backNumber": "31",
         "salary": "3300만원",
@@ -6357,10 +5972,10 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "외야수",
-        "name": "박민석",
-        "backNumber": "104",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55004.jpg"
+        "name": "장진혁",
+        "backNumber": "51",
+        "salary": "9000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/66706.jpg"
       },
       {
         "level": "FUTURES",
@@ -6369,10 +5984,10 @@
         "team": "KT 위즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_KT.png",
         "position": "외야수",
-        "name": "정영웅",
-        "backNumber": "108",
+        "name": "이재원",
+        "backNumber": "65",
         "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55008.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56005.jpg"
       },
       {
         "level": "FUTURES",
@@ -6417,10 +6032,10 @@
         "team": "LG 트윈스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
         "position": "외야수",
-        "name": "이재원",
-        "backNumber": "52",
-        "salary": "7000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68106.jpg"
+        "name": "서영준",
+        "backNumber": "60",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55160.jpg"
       },
       {
         "level": "FUTURES",
@@ -6457,18 +6072,6 @@
         "backNumber": "108",
         "salary": "3000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56108.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "LG",
-        "team": "LG 트윈스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LG.png",
-        "position": "외야수",
-        "name": "최명경",
-        "backNumber": "116",
-        "salary": "3100만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54112.jpg"
       },
       {
         "level": "FUTURES",
@@ -6557,90 +6160,6 @@
       {
         "level": "FUTURES",
         "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "외야수",
-        "name": "최준우",
-        "backNumber": "7",
-        "salary": "6500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68868.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "외야수",
-        "name": "이승민",
-        "backNumber": "9",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54806.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "외야수",
-        "name": "이정범",
-        "backNumber": "33",
-        "salary": "3200만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/67807.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "외야수",
-        "name": "한유섬",
-        "backNumber": "35",
-        "salary": "90000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/62895.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "외야수",
-        "name": "류효승",
-        "backNumber": "45",
-        "salary": "4500만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/50868.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "외야수",
-        "name": "김정민",
-        "backNumber": "48",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53865.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "SK",
-        "team": "SSG 랜더스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_SK.png",
-        "position": "외야수",
-        "name": "이승빈",
-        "backNumber": "106",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56806.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
         "teamCode": "HT",
         "team": "KIA 타이거즈",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
@@ -6649,18 +6168,6 @@
         "backNumber": "9",
         "salary": "5000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53659.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "HT",
-        "team": "KIA 타이거즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
-        "position": "외야수",
-        "name": "한승연",
-        "backNumber": "31",
-        "salary": "3100만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52628.jpg"
       },
       {
         "level": "FUTURES",
@@ -6685,6 +6192,18 @@
         "backNumber": "113",
         "salary": "3500만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55637.jpg"
+      },
+      {
+        "level": "FUTURES",
+        "levelName": "퓨처스",
+        "teamCode": "HT",
+        "team": "KIA 타이거즈",
+        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_HT.png",
+        "position": "외야수",
+        "name": "천정민",
+        "backNumber": "136",
+        "salary": "3000만원",
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/56639.jpg"
       },
       {
         "level": "FUTURES",
@@ -6825,18 +6344,6 @@
         "team": "두산 베어스",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
         "position": "외야수",
-        "name": "김문수",
-        "backNumber": "102",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/53205.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "OB",
-        "team": "두산 베어스",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_OB.png",
-        "position": "외야수",
         "name": "임현철",
         "backNumber": "116",
         "salary": "3000만원",
@@ -6885,18 +6392,6 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
         "position": "외야수",
-        "name": "전준우",
-        "backNumber": "8",
-        "salary": "70000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/78513.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "LT",
-        "team": "롯데 자이언츠",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
-        "position": "외야수",
         "name": "김동현",
         "backNumber": "64",
         "salary": "3100만원",
@@ -6921,10 +6416,10 @@
         "team": "롯데 자이언츠",
         "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_LT.png",
         "position": "외야수",
-        "name": "김대현",
-        "backNumber": "100",
+        "name": "엄장윤",
+        "backNumber": "123",
         "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54511.jpg"
+        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52565.jpg"
       },
       {
         "level": "FUTURES",
@@ -6973,18 +6468,6 @@
         "backNumber": "27",
         "salary": "6000만원",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68362.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "WO",
-        "team": "고양 히어로즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_WO.png",
-        "position": "외야수",
-        "name": "원성준",
-        "backNumber": "33",
-        "salary": "3700만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/54307.jpg"
       },
       {
         "level": "FUTURES",
@@ -7069,78 +6552,6 @@
         "backNumber": "64",
         "salary": "",
         "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/55164.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "외야수",
-        "name": "김서원",
-        "backNumber": "3",
-        "salary": "",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/31003.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "외야수",
-        "name": "변상권",
-        "backNumber": "5",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68305.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "외야수",
-        "name": "김동엽",
-        "backNumber": "20",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/66838.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "외야수",
-        "name": "예진원",
-        "backNumber": "23",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/68330.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "외야수",
-        "name": "김시완",
-        "backNumber": "37",
-        "salary": "3000만원",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/52211.jpg"
-      },
-      {
-        "level": "FUTURES",
-        "levelName": "퓨처스",
-        "teamCode": "UL",
-        "team": "울산 웨일즈",
-        "teamLogoUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/emblem/regular/2026/emblemF_UL.png",
-        "position": "외야수",
-        "name": "박문순",
-        "backNumber": "53",
-        "salary": "",
-        "imageUrl": "https://6ptotvmi5753.edge.naverncp.com/KBO_IMAGE/person/middle/2026/31053.jpg"
       }
     ]
   }
